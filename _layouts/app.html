@@ -20,6 +20,12 @@ layout: default
 			{% if page.download %}
 			<li>Download: <a href="{{ page.download }}" target="_blank">{{ page.download }}</a></li>
 			{% endif %}
+			{% if page.bug-tracker %}
+			<li>Bug Tracker: <a href="{{ page.bug-tracker }}" target="_blank">{{ page.bug-tracker }}</a></li>
+			{% endif %}
+			{% if page.source-code %}
+			<li>Source Code: <a href="{{ page.source-code }}" target="_blank">{{ page.source-code }}</a></li>
+			{% endif %}
 			{% if page.demo %}
 			<li>Demo: <a href="{{ page.demo }}" target="_blank">{{ page.demo }}</a></li>
 			{% endif %}

@@ -2,6 +2,8 @@
 title: WordPress
 link: https://wordpress.org/
 download: https://wordpress.org/download/
+bug-tracker: https://make.wordpress.org/core/
+source-code: https://core.svn.wordpress.org/trunk/
 version: 4.1.1
 categories:
   - CMS

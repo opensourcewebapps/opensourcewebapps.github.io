@@ -2,7 +2,8 @@
 title: Gallery
 link: http://galleryproject.org/
 download: http://downloads.sourceforge.net/gallery/gallery-3.0.9.zip
-issues: http://sourceforge.net/projects/gallery/
+bug-tracker: http://sourceforge.net/projects/gallery/
+source-code: https://github.com/gallery/gallery3
 version: 3.0.9
 categories:
   - Photo Sharing

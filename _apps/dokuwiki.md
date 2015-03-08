@@ -2,6 +2,8 @@
 title: DokuWiki
 link: https://www.dokuwiki.org/dokuwiki
 download: http://download.dokuwiki.org/
+bug-tracker: https://github.com/splitbrain/dokuwiki/issues
+source-code: https://github.com/splitbrain/dokuwiki
 version: 2014-09-29c
 categories:
   - Wiki
