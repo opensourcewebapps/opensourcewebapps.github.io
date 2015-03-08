@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<div class="post">
+
+	<header class="post-header">
+		<h1 class="post-title">{{ page.title }}</h1>
+	</header>
+
+	<article class="post-content">
+		{{ content }}
+
+		<ul>
+			{% if page.version %}
+			<li>Version: {{ page.version }}</li>
+			{% endif %}
+			{% if page.link %}
+			<li>Link: <a href="{{ page.link }}" target="_blank">{{ page.link }}</a></li>
+			{% endif %}
+			{% if page.download %}
+			<li>Download: <a href="{{ page.download }}" target="_blank">{{ page.download }}</a></li>
+			{% endif %}
+			{% if page.demo %}
+			<li>Demo: <a href="{{ page.demo }}" target="_blank">{{ page.demo }}</a></li>
+			{% endif %}
+		</ul>
+
+		{% if page.categories %}
+		<h2>Categories</h2>
+		<ul>
+		{% for category in page.categories %}
+			<li>{{ category }}</li>
+		{% endfor %}
+		</ul>
+		{% endif %}
+
+		{% if page.language %}
+		<h2>Language</h2>
+		<ul>
+		{% for language in page.language %}
+			<li>{{ language }}</li>
+		{% endfor %}
+		</ul>
+		{% endif %}
+
+		{% if page.database %}
+		<h2>Databases Supported</h2>
+		<ul>
+		{% for database in page.database %}
+			<li>{{ database }}</li>
+		{% endfor %}
+		</ul>
+		{% endif %}
+
+		{% if page.license %}
+		<h2>License</h2>
+		<ul>
+		{% for license in page.license %}
+			<li>{{ license }}</li>
+		{% endfor %}
+		</ul>
+		{% endif %}
+	</article>
+
+</div>

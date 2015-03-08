@@ -1,0 +1,39 @@
+---
+# This is the apps generated json file
+---
+[
+{% for app in site.apps %}
+{% if forloop.first != true %},{% endif %}
+{
+	"name": "{{ app.title }}",
+	"link": "{{ app.link }}",
+	"download": "{{ app.download }}",
+	"version": "{{ app.version }}",
+	"demo": "{{ app.demo }}",
+	"categories": [
+		{% for category in app.categories %}
+			{% if forloop.first != true %},{% endif %}
+			"{{ category }}"
+		{% endfor %}
+	],
+	"language": [
+		{% for language in app.language %}
+			{% if forloop.first != true %},{% endif %}
+			"{{ language }}"
+		{% endfor %}
+	],
+	"database": [
+		{% for database in app.database %}
+			{% if forloop.first != true %},{% endif %}
+			"{{ database }}"
+		{% endfor %}
+	],
+	"license": [
+		{% for license in app.license %}
+			{% if forloop.first != true %},{% endif %}
+			"{{ license }}"
+		{% endfor %}
+	]
+}
+{% endfor %}
+]

@@ -4,6 +4,41 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Homepage</h1>
+	<h1 class="page-heading">Homepage</h1>
+
+	<h2>Apps</h2>
+	<ul>
+	{% for app in site.apps %}
+		<li><a class="page-link" href="{{ app.url | prepend: site.baseurl }}">{{ app.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+	<h2>Categories</h2>
+	<ul>
+	{% for category in site.category %}
+		<li><a class="page-link" href="{{ category.url | prepend: site.baseurl }}">{{ category.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+	<h2>Languages</h2>
+	<ul>
+	{% for language in site.language %}
+		<li><a class="page-link" href="{{ language.url | prepend: site.baseurl }}">{{ language.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+	<h2>Databases</h2>
+	<ul>
+	{% for database in site.database %}
+		<li><a class="page-link" href="{{ database.url | prepend: site.baseurl }}">{{ database.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+	<h2>Licenses</h2>
+	<ul>
+	{% for license in site.license %}
+		<li><a class="page-link" href="{{ license.url | prepend: site.baseurl }}">{{ license.title }}</a></li>
+	{% endfor %}
+	</ul>
 
 </div>
