@@ -1,5 +1,5 @@
 ---
-title: OSTicket
+title: osTicket
 link: http://osticket.com/
 download: http://osticket.com/download
 demo: https://www.softaculous.com/demos/osTicket
