@@ -14,7 +14,7 @@ categories:
 language:
   - PHP
 database:
-  - Filesystem
+  - MySQL
 license:
   - GPLv2
 ---
