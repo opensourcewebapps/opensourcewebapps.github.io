@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Here I'm curating a list of all Open Source Web Apps that is easy to browse by category.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm doing it in Jekyll mostly because I wanted to see what type of data driven website could be built as a static site within the limitations of Jekyll.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Feel free to add new apps to the repository by just sending a pull request to https://github.com/opensourcewebapps/opensourcewebapps.github.io
