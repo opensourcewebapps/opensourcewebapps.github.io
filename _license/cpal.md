@@ -1,0 +1,3 @@
+---
+title: Common Public Attribution License Version 1.0 (CPAL)
+---
